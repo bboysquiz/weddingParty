@@ -1,82 +1,16 @@
 <!doctype html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#8f0e0d" />
-  <title>Wedding Party — 25.07.27</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css" />
-</head>
-<body>
-  <main class="page-shell">
-    <section class="hero section-dark">
-      <div class="top-icons" aria-hidden="true"><span>⌁</span><span>♥</span><span>⌁</span></div>
-      <div class="hero-mark">
-        <span class="hero-w">W</span>
-        <div class="hero-copy"><span>edding</span><strong>party</strong></div>
-      </div>
-      <div class="hero-photo" role="img" aria-label="Свадебная вечеринка"></div>
-      <p class="hero-caption">Дорогие друзья! Мы очень хотим разделить этот особенный день вместе с вами.</p>
-    </section>
-
-    <section class="section-light invite">
-      <div class="mist mist-top"></div>
-      <p class="date">25.07.27</p>
-      <div class="place">
-        <p><strong>Севкабель × Social Club</strong><br>ул. Кожевенная, 40</p>
-        <a class="map-link" href="https://yandex.ru/maps/?text=Севкабель%20Порт%20Кожевенная%2040" target="_blank" rel="noreferrer">открыть<br>карту</a>
-      </div>
-      <div class="time-block"><small>сбор гостей</small><span>16:00</span></div>
-      <div class="mist mist-bottom"></div>
-    </section>
-
-    <section class="dress section-dark">
-      <div class="dress-copy">
-        <h2>dress<br>code</h2>
-        <p>элегантность<br>и свобода.<br><br>подойдут оттенки<br>бордо, шоколада,<br>черного, красного<br>и приглушенного<br>розового.</p>
-      </div>
-      <div class="party-photo" role="img" aria-label="Гости свадебной вечеринки"></div>
-    </section>
-
-    <section class="gifts section-dark">
-      <h2>подарки</h2>
-      <p>Мы будем рады вашему присутствию больше всего. Если захотите сделать подарок — пусть он будет компактным и от сердца.</p>
-      <div class="mist mist-bottom"></div>
-    </section>
-
-    <section class="section-light rsvp">
-      <div class="mist mist-top"></div>
-      <h2>планируете ли<br>быть с нами<br>в этот день?</h2>
-      <form id="rsvp-form">
-        <label><input type="radio" name="attendance" value="Да, с удовольствием" required><span>Да, обязательно буду!</span></label>
-        <label><input type="radio" name="attendance" value="Буду с парой"><span>Буду не один / не одна</span></label>
-        <label><input type="radio" name="attendance" value="Не смогу"><span>К сожалению, не получится</span></label>
-        <input class="name-input" name="name" type="text" placeholder="ваше имя" required>
-        <button type="submit">отправить</button>
-        <p class="form-status" aria-live="polite"></p>
-      </form>
-      <div class="ornament">♥ · ♥ · ♥</div>
-      <div class="contacts">
-        <h2>обращайтесь<br>по любым<br>вопросам</h2>
-        <div><span>Невеста<br><a href="tel:+79999999999">+7 999 999-99-99</a></span><span>Жених<br><a href="tel:+79999999999">+7 999 999-99-99</a></span></div>
-      </div>
-      <div class="mist mist-bottom"></div>
-    </section>
-
-    <section class="footer section-dark">
-      <div class="footer-photo" role="img" aria-label="Танцы на вечеринке"></div>
-      <p>до встречи в этот<br>особенный день</p>
-      <div class="countdown" aria-label="Обратный отсчет до свадьбы">
-        <div><strong id="days">—</strong><span>дней</span></div>
-        <i>:</i><div><strong id="hours">—</strong><span>часов</span></div>
-        <i>:</i><div><strong id="minutes">—</strong><span>минут</span></div>
-        <i>:</i><div><strong id="seconds">—</strong><span>секунд</span></div>
-      </div>
-    </section>
-  </main>
-  <script src="./script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#8f0e0d" />
+    <title>Wedding Party — 25.07.27</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Manrope:wght@300;400;500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>
